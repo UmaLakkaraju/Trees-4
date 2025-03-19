@@ -17,7 +17,7 @@ public class KthSmallestElementInBST {
         if(element==0) {
             result=root.val;
         }
-        inorder(root.right);
+         inorder(root.right);
     }
     public class TreeNode {
      int val;
